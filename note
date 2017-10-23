@@ -1,0 +1,119 @@
+
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git remote -v
+origin	https://github.com/doiriel/B31XB-IIP-TP-1718.git (fetch)
+origin	https://github.com/doiriel/B31XB-IIP-TP-1718.git (push)
+
+
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git remote add upstream https://github.com/ViBOT-Erasmus/B31XB-IIP-TP-1718.git
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git remote update
+Fetching origin
+Fetching upstream
+remote: Counting objects: 23, done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 23 (delta 2), reused 23 (delta 2), pack-reused 0
+Unpacking objects: 100% (23/23), done.
+From https://github.com/ViBOT-Erasmus/B31XB-IIP-TP-1718
+ * [new branch]      master     -> upstream/master
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git rebase upstream/master
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to upstream/master.
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ jupyter notebook
+[I 11:04:44.581 NotebookApp] The port 8888 is already in use, trying another port.
+[I 11:04:44.585 NotebookApp] Serving notebooks from local directory: /home/masters/Documents/Doiriel/B31XB-IIP-TP-1718
+[I 11:04:44.585 NotebookApp] 0 active kernels 
+[I 11:04:44.586 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/?token=7203f152caf8b870eb76815a30dee0ece75fba62481b6741
+[I 11:04:44.586 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:04:44.586 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=7203f152caf8b870eb76815a30dee0ece75fba62481b6741
+[I 11:04:44.700 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[W 11:04:57.283 NotebookApp] Notebook 1-introducion/1-introduction-skimage.ipynb is not trusted
+[I 11:04:57.900 NotebookApp] Kernel started: cf7695a9-2521-46b6-9400-f9afa6fcdf84
+[I 11:06:57.922 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:08:57.916 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:10:57.903 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:12:57.907 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:14:57.904 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:16:57.907 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:18:57.911 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:22:57.909 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:24:57.909 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:26:57.907 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:30:57.935 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:34:57.909 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:36:57.917 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:38:57.912 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:40:57.908 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:41:01.705 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:48:57.912 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:50:57.917 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:52:57.919 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:54:57.917 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:56:57.916 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 11:58:57.929 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:00:57.919 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:02:57.947 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:04:57.952 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:10:58.383 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:12:42.324 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:14:58.382 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:14:59.863 NotebookApp] Kernel interrupted: cf7695a9-2521-46b6-9400-f9afa6fcdf84
+[I 12:16:58.392 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:18:58.381 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:20:58.384 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+[I 12:22:15.751 NotebookApp] Saving file at /1-introducion/1-introduction-skimage.ipynb
+^C[I 12:22:31.519 NotebookApp] interrupted
+Serving notebooks from local directory: /home/masters/Documents/Doiriel/B31XB-IIP-TP-1718
+1 active kernels 
+The Jupyter Notebook is running at: http://localhost:8889/?token=7203f152caf8b870eb76815a30dee0ece75fba62481b6741
+Shutdown this notebook server (y/[n])? y
+[C 12:22:35.150 NotebookApp] Shutdown confirmed
+[I 12:22:35.150 NotebookApp] Shutting down kernels
+[I 12:22:36.553 NotebookApp] Kernel shutdown: cf7695a9-2521-46b6-9400-f9afa6fcdf84
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   1-introducion/1-introduction-skimage.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	1-introducion/lena_as_float.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git add .
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   1-introducion/1-introduction-skimage.ipynb
+	new file:   1-introducion/lena_as_float.png
+
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git commit -m 'lab1_finished'
+[master 814bfd4] lab1_finished
+ 2 files changed, 305 insertions(+), 44 deletions(-)
+ create mode 100644 1-introducion/lena_as_float.png
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ git push origin master
+Username for 'https://github.com': doiriel
+Password for 'https://doiriel@github.com': 
+Counting objects: 27, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (27/27), 1.73 MiB | 1.44 MiB/s, done.
+Total 27 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/doiriel/B31XB-IIP-TP-1718.git
+   0b12383..814bfd4  master -> master
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ ^C
+masters@co-u-masters04:~/Documents/Doiriel/B31XB-IIP-TP-1718$ 
+
